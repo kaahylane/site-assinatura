@@ -4,11 +4,15 @@
     --cinza-secundario: #a09f9f;
     --botao-azul: #557eb1;
     --cor-de-fundo: #32384d;
+    --fonte-principal: 'static';
 }
 body {
 
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size:16px;
+    font-weight:400;
 }
 * {
     margin: 0;
@@ -36,18 +40,17 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao_secundario {
 
     background: transparent;
-border: 2px solid var(--branco-principal);
+    border: 2px solid var(--branco-principal);
 
 }
 
 .container__aviso {
     font-size: 12px;
     color: var(--cinza-secundario);
-
-
 }
